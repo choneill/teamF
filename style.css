@@ -1,1 +1,36 @@
+mainBody{
+	background-color:black;
+	text-align:centre;
+	font-family:Helvetica;
+	text-align:center;
+	color:white;
+}
+.show{
+	background-color: blue;
+	color: black;
+}
+.row{
+	background-color:grey;
+	marigin-top:100px;
+	min-height:100px;
+	justify-content: space-between;
+}
+.linkStyle{ /*this can be the style used in the links/tabs for navigation at the top of the page*/
+	text-align: center;
+	font-family:Helvetica;
+	font-size: 25px;
+}
 
+
+#navBar {
+  background-color:black;
+}
+#carousel {
+  background-color:white;
+}
+#mainContent {
+  background-color:grey;
+}
+#footer {
+  background-color:black;
+}
