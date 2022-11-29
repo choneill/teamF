@@ -30,7 +30,8 @@
 
 
 #navBar {
-  background-color:black;
+  	background-color:black;
+	background-image: linear-gradient(to right, red , yellow);
 }
 #carousel {
   background-color:white;
