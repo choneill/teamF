@@ -1,11 +1,11 @@
 mainBody{
 	background-color:black;
 	text-align:centre;
-	font-family:Helvetica;
+	font-family:none;
 	text-align:center;
 	color:white;
 }
-.show{
+.show{ /*this is just for testing*/
 	background-color: blue;
 	color: black;
 }
@@ -16,9 +16,13 @@ mainBody{
 	justify-content: space-between;
 }
 .linkStyle{ /*this can be the style used in the links/tabs for navigation at the top of the page*/
-	text-align: center;
-	font-family:Helvetica;
+	margin: 0;
 	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: none;
+	border: none; 
 }
 
 
