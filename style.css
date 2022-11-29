@@ -1,9 +1,12 @@
-mainBody{
+#mainBody{
 	background-color:black;
 	text-align:centre;
 	font-family:none;
 	text-align:center;
 	color:white;
+}
+.container{
+	
 }
 .show{ /*this is just for testing*/
 	background-color: blue;
