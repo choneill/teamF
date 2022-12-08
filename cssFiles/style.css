@@ -18,16 +18,46 @@
 	min-height:100px;
 	justify-content: space-between;
 }
-.linkStyle{ /*this can be the style used in the links/tabs for navigation at the top of the page*/
-	margin: 0;
+/* THIS FRAGMENT WILL NEED TO GO IN THE FFINAL FILE
+
+
+@media(min-width:500px){ /*makes the links in the nav bar stack nicely
+	.linkStyle{ /*this can be the style used in the links/tabs for navigation at the top of the page
+	background-color:none;
+	margin:auto;
+	width: 12%;
+	height: auto;
+	border: none;
 	font-size: 25px;
-	display: flex;
-	justify-content: center;
+	padding: 0px;
+
+
+	transition-duration: 0.9s;
 	align-items: center;
-	height: none;
-	border: none; 
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+
+	}
+
+.btn btn-outline-secondary{
 }
 
+.button{
+	transition-duration: 0.5s;
+	cursor: pointer;
+	height:auto;
+}
+.button:hover {
+	background-color: red;
+}
+
+UP TO HERE. */
+
+#linkGroup{
+}
 
 #navBar {
   	background-color:black;
@@ -43,4 +73,36 @@
 #footer {
   	background-color:black;
 	color:white;
+}
+
+/* comment for the report: the following list and the css were borrowed from CSS Horizontal Navigation Bar at https://www.w3schools.com/css/css_navbar_horizontal.asp, access: 7/12/2022 */
+@media(min-width:500px){
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color:;
+	}
+
+	li {
+	  float: left;
+	  
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 25px 25px;
+	  text-decoration: none;
+	  height: auto;
+	}
+	ul a:hover {
+		background-color: black;
+		color: white;
+	}
+}
+.activePage{
+  background-color: black;
 }

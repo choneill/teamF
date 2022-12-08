@@ -11,22 +11,37 @@
 			<div id="navBar" class="row"> <!--this is the Navigation Bar on top -->
 				<div class="col-lg-1">
 
-					<img src="images/logo1.png" width="200" height="auto" alt="a motorcyclist wheeling a heavy adventure bike while riding on grass" />
+					<img src="images/logo1.png" width="200" height="auto" alt="a black and white motorcycle logo showing an adventure touring motorcycle" />
 				</div>
-				<div class="col-lg-1 linkStyle">
-					<button onclick="document.location='index.html'">Home</button>
-				</div>
-				<div class="col-lg-1 linkStyle">
-					<button onclick="document.location='bikeRentals/bikeRentals.html'">Bike Rentals</button>
-				</div>
-				<div class="col-lg-1 linkStyle">
-					<button onclick="document.location='excursions/excursions.html'">Excursions</button>
-				</div>
-				<div class="col-lg-1 linkStyle">
-					<button onclick="document.location='aboutUs/aboutUs.html'">About Us</button>
-				</div>
-				<div class="col-lg-1 linkStyle">
-					<button onclick="document.location='contact/contact.html'">Contact</button>
+				<div class="col-lg-9" id="linkGroup">
+					<!-- comment for the report: the following list and the css were borrowed from CSS Horizontal Navigation Bar at https://www.w3schools.com/css/css_navbar_horizontal.asp, access: 7/12/2022 -->
+					<ul>
+						<li><a class="activePage" href="index.html">Home</a></li>
+						<li><a href="bikeRentals/bikeRentals.html">Bike Rentals</a></li>
+						<li><a href="excursions/excursions.html">Excursions</a></li>
+						<li><a href="aboutUs/aboutUs.html">About Us</a></li>
+						<li><a href="contact/contact.html">Contact</a></li>
+					</ul>
+					<h1>Irish Motorcycle Tours<h1>
+					
+					<!--I DECIDED TO SIMPLYFY THE NAVBAR BUT I DIDN;T WANT TO GO WITH THE BOOTSTRAP BUTTONS SO I WENT WITH A HORIZONTAL LIST WITH SOME PADDING-->
+					
+					<!--<div id="linkGroup">
+					<div class="col-lg-1 linkStyle">
+						<button onclick="document.location='index.html'">Home</button>
+					</div>
+					<div class="col-lg-2 center linkStyle" >
+						<button type="button" class="btn btn-secondary btn-lg" onclick="document.location='bikeRentals/bikeRentals.html'">Bike Rentals</button>
+					</div>
+					<div class="col-lg-2">
+						<button type="button" class="btn btn-secondary btn-lg" onclick="document.location='excursions/excursions.html'">Excursions</button>
+					</div>
+					<div class="col-lg-1 button">
+						<button onclick="document.location='aboutUs/aboutUs.html'">About Us</button>
+					</div>
+					<div class="col-lg-1 linkStyle">
+						<button onclick="document.location='contact/contact.html'">Contact</button>
+					</div>-->
 				</div>
 			</div>
 			<div id="carousel" class="row"> <!--this is the Carousel underneath - no padding??? -->
