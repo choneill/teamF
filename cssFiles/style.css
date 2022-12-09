@@ -68,6 +68,7 @@ UP TO HERE. */
 #mainContent {
 	background-color:grey;
 	min-height:500px;
+	margin:auto
 }
 #footer {
   	background-color:black;
