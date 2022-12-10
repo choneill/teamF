@@ -87,11 +87,11 @@ UP TO HERE. */
 	min-height:500px;
 	margin:auto;
 }
-#footer {
+/*#footer {
   	background-color:black;
 	color:white;
 }
-
+*/
 /*the styling in CSS does not work on GoogleMaps in Contact page. The styling had to be done solely in the html.
 #map{
 	border-radius: 10px;
