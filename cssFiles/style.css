@@ -92,6 +92,14 @@ UP TO HERE. */
 	color:white;
 }
 
+/*the styling in CSS does not work on GoogleMaps in Contact page. The styling had to be done solely in the html.
+#map{
+	border-radius: 10px;
+	z-index:1;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}*/
+
 /* comment for the report: the following list and the css were borrowed from CSS Horizontal Navigation Bar at https://www.w3schools.com/css/css_navbar_horizontal.asp, access: 7/12/2022 */
 @media(min-width:500px){
 	ul {
