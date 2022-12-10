@@ -12,8 +12,13 @@
 	color: black;
 }
 .row{
+<<<<<<< Updated upstream
 	background-color:grey;
 	/* THIS LINE COULD BE DELETED PROBABLY marigin-top:100px;*/
+=======
+/*	background-color:grey;  ----affects footer*/ 
+	margin-top:100px;
+>>>>>>> Stashed changes
 	min-height:100px;
 	justify-content: space-between;
 	margin:auto;
@@ -66,9 +71,24 @@ UP TO HERE. */
 }
 #carousel {
   background-color:white;
+  margin:auto;
 }
+.carousel .item {
+	height: 100px;
+}
+  
+.item img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-height: 100px;
+}
+
+
 #mainContent {
-	background-color:grey;
+	background-color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
 	min-height:500px;
 	margin:auto;
 }
