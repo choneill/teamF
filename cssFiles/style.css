@@ -13,10 +13,12 @@
 }
 .row{
 	background-color:grey;
-	marigin-top:100px;
+	/* THIS LINE COULD BE DELETED PROBABLY marigin-top:100px;*/
 	min-height:100px;
 	justify-content: space-between;
+	margin:auto;
 }
+
 /* THIS FRAGMENT WILL NEED TO GO IN THE FFINAL FILE
 
 
@@ -68,7 +70,7 @@ UP TO HERE. */
 #mainContent {
 	background-color:grey;
 	min-height:500px;
-	margin:auto
+	margin:auto;
 }
 #footer {
   	background-color:black;
