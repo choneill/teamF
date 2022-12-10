@@ -29,7 +29,7 @@
 			<div id="carousel" class="row"> <!--this is the Carousel underneath - no padding??? OR MAYBE WE WILL SKIP THE CAROUSEL ENTIRELY IN THE CONTACT PAGE???-->
 			</div>
 			<div id="mainContent" class="row"> <!--this is the Main content in CONTACT PAGE - needs padding on sides -->
-			<h3>How to contact us...</h3>
+			<h2>How to contact us...</h2>
 			<br> 
 			
 			<!-- Contact Form sourced from W3Schools.com at: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
@@ -37,7 +37,7 @@
 				<div class="col-lg-8">
 					<div class="contactFormContainer">
 						
-						<form action="action_page.php">
+						<form id="contactForm">
 
 						<label for="fName">Name</label><br>
 						<input type="text" id="name" name="name" placeholder="Please enter your name..."><br>
@@ -59,7 +59,7 @@
 						<label for="textBox"></label>
 						<br><textarea id="textBox" name="textBox" placeholder="Please leave your message. We will revert ASAP!" style="height:200px"></textarea>
 						<br>
-						<input type="submit" value="Submit">
+						<input type="submit" value="Submit" onclick="hide()">
 
 						</form>
 					</div>	
@@ -80,8 +80,8 @@
 			<div class="col-lg-6">
 			</div>
 		<div class="row">
-			<br><br><div class="col-lg-8">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.1489357622722!2d-6.256170284270078!3d53.34059007997786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9a1cd1c193%3A0xb3390824c83c4f90!2sLeinster%20House!5e0!3m2!1sen!2sie!4v1670458148847!5m2!1sen!2sie" width="810" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<br><br><div class="col-lg-8" id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.1489357622722!2d-6.256170284270078!3d53.34059007997786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9a1cd1c193%3A0xb3390824c83c4f90!2sLeinster%20House!5e0!3m2!1sen!2sie!4v1670458148847!5m2!1sen!2sie" width="810" height="600" style="height:; width:;border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			
 			<div class="col-lg-4">
@@ -94,7 +94,7 @@
 			
 			
 		</div>
-			<div id="footer" class="row2"> <!--this is the Footer -->
+			<div id="footer" class="row"> <!--this is the Footer -->
 			AND FOOTER GOES HERE AGAIN
 			</div>
 		</div>
