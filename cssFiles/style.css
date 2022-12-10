@@ -12,13 +12,8 @@
 	color: black;
 }
 .row{
-<<<<<<< Updated upstream
-	background-color:grey;
-	/* THIS LINE COULD BE DELETED PROBABLY marigin-top:100px;*/
-=======
 /*	background-color:grey;  ----affects footer*/ 
 	margin-top:100px;
->>>>>>> Stashed changes
 	min-height:100px;
 	justify-content: space-between;
 	margin:auto;
