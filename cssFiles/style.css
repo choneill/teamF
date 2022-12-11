@@ -91,6 +91,18 @@ UP TO HERE. */
 	margin:auto;
 	padding:10%;
 }
+
+#aboutUsMainContent {
+	background-color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+	min-height:500px;
+	margin:auto;
+	padding:10%;
+	background-image:url(..//images/aboutUs/background2.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 /*#footer {
   	background-color:black;
 	color:white;
