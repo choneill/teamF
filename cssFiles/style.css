@@ -22,50 +22,14 @@ h2{text-align: center;}
 	margin:auto;
 }
 
-/* THIS FRAGMENT WILL NEED TO GO IN THE FFINAL FILE
 
-
-@media(min-width:500px){ /*makes the links in the nav bar stack nicely
-	.linkStyle{ /*this can be the style used in the links/tabs for navigation at the top of the page
-	background-color:none;
-	margin:auto;
-	width: 12%;
-	height: auto;
-	border: none;
-	font-size: 25px;
-	padding: 0px;
-
-
-	transition-duration: 0.9s;
-	align-items: center;
-	justify-content: center;
-	flex-wrap:wrap;
-	
-	
-	
-
-	}
-
-.btn btn-outline-secondary{
-}
-
-.button{
-	transition-duration: 0.5s;
-	cursor: pointer;
-	height:auto;
-}
-.button:hover {
-	background-color: red;
-}
-
-UP TO HERE. */
 
 #linkGroup{
 }
 
 #navBar {
   	background-color:black;
-	background-image: linear-gradient(to right, white , black); /*this gradient thing is pretty neat. https://www.w3schools.com/css/css3_gradients.asp*/
+	background-image: linear-gradient(to right, white , black); /*this is gradient https://www.w3schools.com/css/css3_gradients.asp*/
 }
 #carousel {
   background-color:white;
@@ -103,18 +67,7 @@ UP TO HERE. */
 	background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-/*#footer {
-  	background-color:black;
-	color:white;
-}
-*/
-/*the styling in CSS does not work on GoogleMaps in Contact page. The styling had to be done solely in the html.
-#map{
-	border-radius: 10px;
-	z-index:1;
-	-webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-}*/
+
 
 /* comment for the report: the following list and the css were borrowed from CSS Horizontal Navigation Bar at https://www.w3schools.com/css/css_navbar_horizontal.asp, access: 7/12/2022 */
 @media(min-width:500px){
