@@ -6,9 +6,10 @@
 }
 
 h5{text-align: center;}
-
-.container{
+h2{text-align: center;
+	}
 	
+.container{
 }
 .show{ /*this is just for testing*/
 	background-color: blue;
